@@ -1,0 +1,23 @@
+.pict{
+    border-radius: 50px;
+}
+.b{
+    width: 20%;
+    border-radius: 20px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(6, 143, 202);
+}
+.ecr{
+    color: aliceblue;
+}
+.c{
+    background-color: rgb(6, 143, 202);
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

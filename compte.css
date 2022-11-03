@@ -1,0 +1,50 @@
+.info{
+    background-color: black;
+    width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 80%;
+    border-radius: 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.info h1{
+    color: white;
+}
+.mail{
+    color: white;
+}
+
+.message{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.message:hover{
+    color: rgb(6, 143, 202);
+    font-size: 40px;
+    transition: 1s;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    padding: 9px 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #f1f1f1;
+    background-color: rgba(6, 143, 202);
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.btn:hover{
+    background-color:rgb(224, 15, 15);
+}

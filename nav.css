@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/**.........................................Nav......................................*/
+.li,.a, button{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 30px 10%;
+  height: 50px;
+}
+
+.logo{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.nav-link{
+  list-style: none;
+}
+.nav-link li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.li,.a{
+  transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+  color: rgb(6, 143, 202);
+}
+button{
+  padding: 9px 25px;
+  background-color: rgba(6, 143, 202);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color:rgb(224, 15, 15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
